@@ -1,0 +1,44 @@
+/*  CARDS  */
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card h4 {
+  margin-bottom: 12px;
+}
+
+.card h6 {
+  color: #00cbd3;
+}
+
+@media (min-width: 576px) {
+  .card h6 {
+    width: 260px;
+  }
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.card img {
+  width: 220px;
+}
+
+@media (min-width: 992px) {
+  .card img {
+    width: 160px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card img {
+    width: 220px;
+  }
+}
